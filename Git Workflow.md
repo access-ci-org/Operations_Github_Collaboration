@@ -2,7 +2,7 @@
 # Collaboration Process
 ## Overview
 ![Git
-Workflow](https://github.com/access-ci-org/Operations_Github_Collaboration/blob/CTT-222/aloftus/PR-workflow/Git%20Workflow.png)
+Workflow](https://github.com/access-ci-org/Operations_Github_Collaboration/blob/main/Git%20Workflow.png)
 ## Workflow
 1. Create a branch
     * Naming convention: ticket/username/short-description
