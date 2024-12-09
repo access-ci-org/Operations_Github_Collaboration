@@ -4,11 +4,12 @@
 ![Git
 Workflow](https://github.com/access-ci-org/Operations_Github_Collaboration/blob/main/Git%20Workflow.png)
 ## Workflow
-1. Create a branch
+1. Create a branch from main on the ACCESS-CI repository 
     * Naming convention: ticket/username/short-description
+      * example: CTT-222_Eric_git_workflow_changes
     * `git branch {your/branch/name}`
-    * `git commit -u origin {your/branch/name}`
-      * where `{your/banch/name}` is the actual name of your branch, without the curly braces
+    * `git push -u origin {your/branch/name}`
+      * where `{your/branch/name}` is the actual name of your branch, without the curly braces
 #### CODE
 1. Edit
    * `vim file1`
