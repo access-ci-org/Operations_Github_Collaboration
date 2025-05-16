@@ -45,11 +45,11 @@
    * Github.com > Project site > Pull requests > New pull request
    * *base: main* :arrow_left: *compare:{BRANCH}* > Create pull request
      * If github reports merge conflicts, resolve those before submitting the PR
-     * Add a title (a short summary of the primary change or enhancement)
-     * Add a description (list of the major updates, copy of CHANGELOG is fine here)
+     * Title: (a short summary of the primary change or enhancement)
+     * Description: (list of the major updates, copy of CHANGELOG is fine here)
        * (See also: [How to manage a CHANGELOG](/changelogging.md))
-     * Assignee (who will merge this to main, usually the developer themselves)
-     * Reviewers (who will review and approve this PR)
+     * Assignee: (who will merge this to main, usually the developer themselves)
+     * Reviewers: (who will review and approve this PR)
        * (at least one, more is better)
        * Sugestions:
          * service owner
