@@ -45,17 +45,31 @@
    * Github.com > Project site > Pull requests > New pull request
    * *base: main* :arrow_left: *compare:{BRANCH}* > Create pull request
      * If github reports merge conflicts, resolve those before submitting the PR
-     * Add a title (a short summary of the primary change or enhancement)
-     * Add a description (list of the major updates, copy of CHANGELOG is fine here)
+     * Title: (a short summary of the primary change or enhancement)
+     * Description: (list of the major updates, copy of CHANGELOG is fine here)
        * (See also: [How to manage a CHANGELOG](/changelogging.md))
-     * Assignee (who will merge this to main, usually the developer themselves)
-     * Reviewers (at least one, more is better, who will review and approve this PR)
+     * Assignee: (who will merge this to main, usually the developer themselves)
+     * Reviewers: (who will review and approve this PR)
+       * (at least one, more is better)
+       * Sugestions:
+         * service owner
+         * service owner backup
+         * peer developers
      * Create pull request
 1. Review
    * Participate in the review commentary
    * For any issues, repeat the EDIT > COMMIT > PUSH > TEST cycle until all review issues are complete and fully tested
 
 ### MERGE
+Two options here:
+* Option 1: use "Squash and merge" from the web interface
+* Option 2: Rebase and force push to main from a local git client
+
+For Option 1,
+![Squash and merge](/squash-and-merge.png "Squash and merge via github web
+interface")
+
+For Option 2, follow the commands below ...
 1. Rebase
    * `git checkout main`
    * `git pull`
