@@ -61,7 +61,8 @@ Two options here:
 * Option 2: Rebase and force push to main from a local git client
 
 For Option 1,
-![Squash and merge](/squash-and-merge.png)
+![Squash and merge](/squash-and-merge.png "Squash and merge via github web
+interface")
 
 For Option 2, follow the commands below ...
 1. Rebase
