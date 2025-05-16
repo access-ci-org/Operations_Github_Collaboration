@@ -56,6 +56,15 @@
    * For any issues, repeat the EDIT > COMMIT > PUSH > TEST cycle until all review issues are complete and fully tested
 
 ### MERGE
+Two options here:
+* Option 1: use "Squash and merge" from the web interface
+* Option 2: Rebase and force push to main from a local git client
+
+For Option 1, go to the github web interface, Pull requests, find the merge
+button, click the down arrow and select `Squash and merge`, then click the
+button to complete the action.
+
+For Option 2, follow the commands below ...
 1. Rebase
    * `git checkout main`
    * `git pull`
