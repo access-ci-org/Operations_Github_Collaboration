@@ -49,7 +49,12 @@
      * Add a description (list of the major updates, copy of CHANGELOG is fine here)
        * (See also: [How to manage a CHANGELOG](/changelogging.md))
      * Assignee (who will merge this to main, usually the developer themselves)
-     * Reviewers (at least one, more is better, who will review and approve this PR)
+     * Reviewers (who will review and approve this PR)
+       * (at least one, more is better)
+       * Sugestions:
+         * service owner
+         * service owner backup
+         * peer developers
      * Create pull request
 1. Review
    * Participate in the review commentary
