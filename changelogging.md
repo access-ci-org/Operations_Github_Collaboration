@@ -17,7 +17,6 @@ Each entry should include:
 * Jira issue numbers (where applicable)
 
 ## Example
-(from https://github.com/access-ci-org/Operations_Warehouse_Django)
 
 ```
 v3.49.0 2025-01-27 JP
@@ -34,3 +33,4 @@ v3.35.0 2024-10-17 JP, Andy
   - Change Field to Fields, add Fields of Science to main page
   - CTT-144 add info_resourceid
 ```
+(from https://github.com/access-ci-org/Operations_Warehouse_Django)
