@@ -5,6 +5,7 @@ The file `CHANGELOG` provides a summary of significant changes, features, and
 bug fixes for each version of the contents in a repo.  It usually lives at the top level of the git repo.
 
 ## Format
+File format is plain text.
 Each entry should include:
 * Version
 * Date
@@ -13,7 +14,7 @@ Each entry should include:
   * Features / Enhancements
   * Functionality
   * Bugfixes
-* Jira issue number (where applicable)
+* Jira issue numbers (where applicable)
 
 ## Example
 (from https://github.com/access-ci-org/Operations_Warehouse_Django)

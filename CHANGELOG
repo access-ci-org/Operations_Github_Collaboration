@@ -1,0 +1,17 @@
+v0.1.5 2025-05-30 Andy
+  - CTT-573 add changelog howto
+
+v0.1.4 2025-05-16 Andy
+  - CTT-576 add instructions for using github web squash (fixes #4)
+
+v0.1.3 2025-05-02 Andy
+  - CTT-571 content updates, add notes and faq
+
+v0.1.2 2024-12-09 Eric
+  - Clarify where the branch should be created
+
+v0.1.1 2024-10-24 Andy
+  - fix image link
+
+v0.1.0 2024-10-25 Andy
+  - Initial version
