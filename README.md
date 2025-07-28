@@ -10,3 +10,6 @@ Support team.
 
 ## Production Deployment Best Practices
 * [Best practices for deploying to production](/production_best_practices.md)
+
+## New Repository Guidelines
+* [Repo Conventions](repo_conventions.md)
