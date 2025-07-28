@@ -13,7 +13,7 @@ Suffix indicating the target deployment:
 * `_Django`
 
 For examples, see also:
-https://github.com/orgs/access-ci-org/repositories?q=Operations_
+[access-ci-org/repositories](https://github.com/orgs/access-ci-org/repositories?q=Operations_)
 
 ## Settings
 * Restrict `main` branch to allow only Fast Forward merges
