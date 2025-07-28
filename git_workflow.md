@@ -52,8 +52,8 @@
      * Reviewers: (who will review and approve this PR)
        * (at least one, more is better)
        * Sugestions:
-         * service owner
-         * service owner backup
+         * component owner
+         * component owner backup
          * peer developers
      * Create pull request
 1. Review
@@ -80,7 +80,7 @@ For Option 2, follow the commands below ...
      * When prompted to edit the commit message, add a new line at the top with
        the format `{TICKET}: {short description}`
        * Example: `CTT-222: fix the git push --set-upstream cmd`
-   * `git push -f origin {BRANCH}`
+   * `git push -f origin {BRANCH}` :warning: (use with caution, always type out branch name and review command before hitting Enter)
    * test again
 1. Merge to main
    * `git checkout main`
@@ -90,6 +90,10 @@ For Option 2, follow the commands below ...
    * `git tag {tagname}`
      * where {tagname} follows the tag naming convention for the project you are working on
        (most common is [Semantic Versioning](https://semver.org/))
+     * add tags when appropriate (ie: not doing a release, just adding a tag)
+     * when making a release, add the tag as part of the release creation
+       process
+
    * `git push --tags`
 1. Delete your branch
    * `git branch -d {BRANCH}`
@@ -103,6 +107,10 @@ For Option 2, follow the commands below ...
 * Any text inside curly braces (`{` and `}`) denotes a placeholder. Replace
   them (the entire placeholder including the curly braces) with the appropriate
   value.
+* The "rebase" option may cause problems if:
+  * The repo has a workflow that publishes development versions with "guessed"
+    version strings that are not unique (ie: test.pypi.org)
+  * For these repos, the "Squash and merge" option may be preferred.
 
 ## FAQ
 See: [Frequently Asked Questions](/faq.md)
