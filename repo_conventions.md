@@ -4,11 +4,11 @@ Guidelines for naming new repositories in the ACCESS-CI.org Operations team.
 ## Name
 Follow common repo name patterns like:
 
-Descriptive prefix that indicating purpose:
+Prefix indicating purpose:
 * `Operations_`
 * `Operations_WebApp_`
 
-Suffix indicating (limiting) the target deployment:
+Suffix indicating the target deployment:
 * `_Infrastructure`
 * `_Django`
 
