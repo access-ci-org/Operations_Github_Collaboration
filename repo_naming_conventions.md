@@ -20,7 +20,7 @@ https://github.com/orgs/access-ci-org/repositories?q=Operations_
   * Settings > General > Pull Requests
     * Allow merge commits: No :x:
     * Allow squash merging: Yes :white_check_mark:
-    * Allow merge commits: No :x:
+    * Allow rebase merging: No :x:
   * Settings > Rules > Rulesets
     * Name: "FF only"
     * Target branches: "default"

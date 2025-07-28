@@ -1,3 +1,6 @@
+v0.1.7 2025-07-28 Andy
+- Add repo naming conventions
+
 v0.1.6 2025-07-28 Andy
 - PR - change “service owner” to “component owner”
 - Force push (after rebase) - Add caution message
