@@ -1,4 +1,4 @@
-# Repository Naming Conventions
+# New Repository Conventions
 Guidelines for naming new repositories in the ACCESS-CI.org Operations team.
 
 ## Name
