@@ -6,7 +6,7 @@ Support team.
 * [Github Workflow](/git_workflow.md)
 
 ## Changelog Howto
-* [Howto Manage your CHANGELOG](/changelogging.md)
+* [Howto Manage your CHANGELOG and understand versioning](/changelogging.md)
 
 ## Production Deployment Best Practices
 * [Best practices for deploying to production](/production_best_practices.md)
