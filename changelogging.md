@@ -43,9 +43,9 @@ v3.35.0 2024-10-17 JP, Andy
 
 > Here’s what each number means:
 
-> Patch (x.x.1): Small changes such as bug fixes, tweaks, or minor improvements.
-> Minor (x.1.0): New features have been added that are backward compatible.
-> Major (1.0.0): Breaking changes or major reworks that are not backward compatible.
+> MAJOR (1.0.0): Breaking changes or major reworks that are not backward compatible
+> MINOR (x.1.0): New features have been added that are backward compatible.
+> PATCH (x.x.1): Small changes such as bug fixes and documentation improvements (revised quote from above source).
 
 Operations SysOps uses Git Tags to control and represent versioning
 
