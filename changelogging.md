@@ -7,7 +7,7 @@ bug fixes for each version of the contents in a repo.  It usually lives at the t
 ## Format
 File format is plain text.
 Each entry should include:
-* Version
+* Versioning (^)
 * Date
 * Who did the work
 * Itemized list of changes to any of the following:
@@ -34,3 +34,26 @@ v3.35.0 2024-10-17 JP, Andy
   - CTT-144 add info_resourceid
 ```
 (from https://github.com/access-ci-org/Operations_Warehouse_Django)
+
+## (^) Versioning
+
+[Using Git Tags for Semantic Versioning](https://medium.com/@wealthiscertain/using-git-tags-for-semantic-versioning-step-by-step-guide-02b18d73a7b9)
+
+- MAJOR.MINOR.PATCH
+
+> Here’s what each number means:
+
+> Patch (x.x.1): Small changes such as bug fixes, tweaks, or minor improvements.
+> Minor (x.1.0): New features have been added that are backward compatible.
+> Major (1.0.0): Breaking changes or major reworks that are not backward compatible.
+
+Operations SysOps uses Git Tags to control and represent versioning
+
+For instance, in the Django code repo for Service Index, we see in [releases](https://github.com/access-ci-org/Operations_ServiceIndex_Django/releases), a list of historical versions and their tags, and in the infrastructure code, we see. this tag being referenced in the [hosts](https://github.com/access-ci-org/Operations_ServiceIndex_Infrastructure/blob/main/ansible/hosts) file by Ansible in deployment as: ```app_tag```. 
+
+This is where we see that relationship between versioning of code and its deployment to the production cycle. The same verioning is reflected to the user on the [app/site](https://service-index.operations.access-ci.org/accounts/cilogon/login/?next=/services/) as well. 
+
+
+
+
+
