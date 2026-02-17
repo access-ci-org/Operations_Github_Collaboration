@@ -41,13 +41,18 @@ v3.35.0 2024-10-17 JP, Andy
 
 - MAJOR.MINOR.PATCH
 
-> Here’s what each number means:
+Here’s what each number means:
 
 > MAJOR (1.0.0): Breaking changes or major reworks that are not backward compatible
++
 > MINOR (x.1.0): New features have been added that are backward compatible.
++
 > PATCH (x.x.1): Small changes such as bug fixes and documentation improvements (revised quote from above source).
+= v1.1.1 (per example)
 
-Operations SysOps uses Git Tags to control and represent versioning
+- Operations SysOps uses a v before the semantic numbering as noted above. 
+
+- Operations SysOps uses Git Tags to control and represent versioning
 
 For instance, in the Django code repo for Service Index, we see in [releases](https://github.com/access-ci-org/Operations_ServiceIndex_Django/releases), a list of historical versions and their tags, and in the infrastructure code, we see. this tag being referenced in the [hosts](https://github.com/access-ci-org/Operations_ServiceIndex_Infrastructure/blob/main/ansible/hosts) file by Ansible in deployment as: ```app_tag```. 
 
